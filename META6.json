@@ -1,0 +1,23 @@
+{
+    "perl"        : "6.c",
+    "name"        : "REPL",
+    "version"     : "0.0.1",
+    "license"     : "MIT",
+    "description" : "Make your own REPL application.",
+    "depends"     : [
+        "Getopt::Advance"
+    ],
+    "tags": [
+        "REPL"
+    ],
+    "provides"    : {
+        "REPL"               : "lib/REPL.pm6"
+    },
+	"auth" : "github:araraloren",
+    "authors" : "Loren",
+    "source-url"  : "https://github.com/araraloren/perl6-repl.git",
+    "support" : {
+        "bugtracker" : "https://github.com.araraloren/perl6-repl/issues",
+        "source" : "https://github.com/araraloren/perl6-repl.git"
+    }
+}
